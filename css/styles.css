@@ -1,0 +1,26 @@
+@import url(./components/index.css);
+@import url(./components/images.css);
+@import url(./components/header-and-footer.css);
+@import url(./components/fonts.css);
+@import url(./components/buttons.css);
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 0; /* Header remains its natural height */
+}
+
+main {
+  flex: 1; /* Main takes up remaining space */
+}
+
+footer {
+  flex: 0; /* Footer remains its natural height */
+}
