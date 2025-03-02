@@ -17,6 +17,7 @@ p,
 
 .footer-links {
   color: white;
+  font-size: 38px;
 }
 
 .card-link {
@@ -31,4 +32,8 @@ p,
 
 .h1-portfolio-page {
   text-align: center;
+}
+
+.copyright-text {
+  color: white;
 }

@@ -3,17 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f6ecbff17b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/styles.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
       <div class="header-container">
-        <h1>Kathrine Evensen</h1>
+        <h1>Kathrine M. Evensen</h1>
         <div class="project-pages-header-links">
-          <a href="index.html" class="header-links">Home</a>
-          <a href="portfolio.html" class="header-links">Portfolio</a>
-          <a href="about.html" class="header-links">About</a>
+          <a href="index.html" class="header-links hoover active">Home</a>
+          <a href="portfolio.html" class="header-links hoover">Portfolio</a>
+          <a href="about.html" class="header-links hoover">About</a>
         </div>
       </div>
     </header>
@@ -28,7 +32,7 @@
         </div>
         <div class="hero-flex-small">
           <div class="name-title-index">
-            <h1>Kathrine Evensen</h1>
+            <h1>Kathrine M. Evensen</h1>
             <p>Frontend Developer in development</p>
             <p>Photography enthusiast</p>
           </div>
@@ -40,17 +44,31 @@
     </main>
     <footer>
       <div class="footer-container">
+        <div class="copyright">
+          <p class="copyright-text">
+            &copy; <span id="current-year"></span> Kathrine M. Evensen. All
+            rights reserved.
+          </p>
+        </div>
+
         <div class="contact-footer">
-          <a href="https://github.com/Kateve52911" class="footer-links"
-            >GitHub</a
-          >
+          <a
+            href="https://github.com/Kateve52911"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="footer-links"
+            ><i class="fa-brands fa-github"></i
+          ></a>
           <a
             href="www.linkedin.com/in/kathrine-mellem-evensen-6855b612b"
+            target="_blank"
+            rel="noreferrer noopener"
             class="footer-links"
-            >LinkedIn</a
-          >
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
         </div>
       </div>
     </footer>
+    <script type="module" src="js/utils/updateYear.js"></script>
   </body>
 </html>
