@@ -1,0 +1,25 @@
+.project-grid {
+  margin: 2% 10%;
+}
+
+.card,
+.flex-container-card,
+.links-container {
+  display: flex;
+}
+
+.flex-container-card {
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.card {
+  margin: 5%;
+  padding: 4%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.links-container {
+  align-items: center;
+  justify-content: space-evenly;
+}

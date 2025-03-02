@@ -1,3 +1,7 @@
 .hero-image {
   max-height: 500px;
 }
+
+.card-img {
+  max-width: 600px;
+}

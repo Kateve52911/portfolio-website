@@ -1,9 +1,6 @@
-.header-container {
-  display: flex;
-}
-
 .hero-frontpage,
-.hero-flex-small {
+.hero-flex-small,
+.hero-project-page {
   display: flex;
   justify-content: center;
   padding: 5%;
@@ -13,4 +10,9 @@
   flex-direction: column;
   justify-content: center;
   padding: 5%;
+}
+
+.hero-project-page {
+  padding: 0%;
+  align-items: center;
 }

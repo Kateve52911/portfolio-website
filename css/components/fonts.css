@@ -1,5 +1,11 @@
-a {
-  font-family: Arial, Helvetica, sans-serif;
+a,
+h1 {
+  font-family: "Bodoni 72", Helvetica, serif;
+}
+
+p,
+.card-link {
+  font-family: "Garamond", Arial, serif;
 }
 
 .header-links,
@@ -11,4 +17,18 @@ a {
 
 .footer-links {
   color: white;
+}
+
+.card-link {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+
+.github-icon {
+  font-size: 36px;
+}
+
+.h1-portfolio-page {
+  text-align: center;
 }

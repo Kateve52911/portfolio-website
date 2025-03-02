@@ -1,8 +1,9 @@
-@import url(./components/index.css);
+@import url(./components/containers.css);
 @import url(./components/images.css);
 @import url(./components/header-and-footer.css);
 @import url(./components/fonts.css);
 @import url(./components/buttons.css);
+@import url(./components/portfolio.css);
 
 html,
 body {
