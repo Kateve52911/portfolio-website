@@ -1,22 +1,16 @@
 .hero-frontpage,
 .hero-flex-small,
 .hero-project-page,
-.parent {
+.parent,
+.about-section {
   display: flex;
   justify-content: center;
   padding: 5%;
 }
 
-.hero-frontpage,
 .hero-flex-small,
-.hero-project-page {
-  padding: 5%;
-}
-
-.hero-flex-small {
+.about-section {
   flex-direction: column;
-  justify-content: center;
-  padding: 5%;
 }
 
 .hero-project-page {
@@ -26,11 +20,7 @@
 }
 
 .about-section {
-  margin: 0% 20%;
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 0% 10%;
   align-items: center;
   text-align: center;
 }

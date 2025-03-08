@@ -14,7 +14,7 @@
 
 /* Media Queries */
 /* Phone */
-@media (min-width: 350px) and (max-width: 926px) {
+@media (min-width: 350px) and (max-width: 815px) {
   .hero-image {
     max-height: 400px;
   }
@@ -25,5 +25,8 @@
 }
 
 /* Tablet */
-@media (min-width: 816px) and (max-width: 1080px) {
+@media (min-width: 810px) and (max-width: 1080px) {
+  .card-img {
+    max-width: 550px;
+  }
 }
