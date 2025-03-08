@@ -34,6 +34,19 @@ p,
   text-align: center;
 }
 
+p.portfolio-page {
+  text-align: center;
+}
+
 .copyright-text {
   color: white;
+}
+
+/* Media Queries */
+/* Phone */
+@media (min-width: 350px) and (max-width: 926px) {
+}
+
+/* Tablet */
+@media (min-width: 816px) and (max-width: 1080px) {
 }

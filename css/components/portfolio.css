@@ -1,7 +1,3 @@
-.project-grid {
-  margin: 2% 10%;
-}
-
 .card,
 .flex-container-card,
 .links-container {
@@ -22,4 +18,16 @@
 .links-container {
   align-items: center;
   justify-content: space-evenly;
+}
+
+/* Media Queries */
+/* Phone */
+@media (min-width: 350px) and (max-width: 926px) {
+  .card {
+    flex-direction: column;
+  }
+}
+
+/* Tablet */
+@media (min-width: 816px) and (max-width: 1080px) {
 }

@@ -4,3 +4,12 @@
   padding: 10px 30px;
   text-decoration: none;
 }
+
+/* Media Queries */
+/* Phone */
+@media (min-width: 350px) and (max-width: 81926px5px) {
+}
+
+/* Tablet */
+@media (min-width: 816px) and (max-width: 1080px) {
+}

@@ -11,3 +11,19 @@
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+/* Media Queries */
+/* Phone */
+@media (min-width: 350px) and (max-width: 926px) {
+  .hero-image {
+    max-height: 400px;
+  }
+
+  .card-img {
+    max-width: 300px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 816px) and (max-width: 1080px) {
+}

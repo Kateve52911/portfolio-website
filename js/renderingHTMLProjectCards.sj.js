@@ -3,9 +3,6 @@ import { projects } from "./utils/projectData.js";
 document.addEventListener("DOMContentLoaded", () => {
   const projectContainer = document.getElementById("projects");
 
-  const projectGrid = document.createElement("div");
-  projectGrid.classList.add("project-grid");
-
   projects.forEach((project) => {
     const card = document.createElement("div");
     card.classList.add("card");
@@ -60,8 +57,6 @@ document.addEventListener("DOMContentLoaded", () => {
     card.appendChild(img);
     card.appendChild(flexContainerCard);
 
-    projectGrid.appendChild(card);
+    projectContainer.appendChild(card);
   });
-
-  projectContainer.appendChild(projectGrid);
 });

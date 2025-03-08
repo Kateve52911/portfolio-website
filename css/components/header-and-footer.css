@@ -31,3 +31,12 @@ a.active {
   gap: 20px;
   margin: 0%;
 }
+
+/* Media Queries */
+/* Phone */
+@media (min-width: 350px) and (max-width: 815px) {
+}
+
+/* Tablet */
+@media (min-width: 816px) and (max-width: 1080px) {
+}
