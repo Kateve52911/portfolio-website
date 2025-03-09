@@ -32,9 +32,63 @@ a.active {
   margin: 0%;
 }
 
+.hamburger-menu {
+  display: none; /* Hidden by default on desktop */
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+/* Adjust header container for responsive behavior */
+.header-container {
+  position: relative; /* For proper positioning in mobile view */
+  transition: all 0.3s ease; /* Smooth transition for menu toggle */
+}
+
+.project-pages-header-links {
+  transition: all 0.3s ease;
+}
+
 /* Media Queries */
 /* Phone */
-@media (min-width: 350px) and (max-width: 815px) {
+@media (min-width: 350px) and (max-width: 926px) {
+  .hamburger-menu {
+    display: block; /* Show hamburger icon on mobile */
+  }
+
+  /* Adjust the header container for mobile */
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Style for links in mobile view */
+  .project-pages-header-links {
+    display: none; /* Hidden by default */
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    gap: 10px;
+  }
+
+  /* When menu is active */
+  .project-pages-header-links.active {
+    display: flex;
+  }
+
+  /* Style individual links in mobile view */
+  .project-pages-header-links a {
+    padding: 10px 0;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+
+  .project-pages-header-links a:last-child {
+    border-bottom: none;
+  }
 }
 
 /* Tablet */
